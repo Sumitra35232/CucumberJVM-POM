@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="2.426" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="browser" value="FF"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/Shrawan Rauniyar/assignment/CucumberDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Shrawan Rauniyar\assignment\CucumberDemo"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHRAWA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/apache-maven-3.3.9-bin/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Shrawan Rauniyar\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Shrawan Rauniyar\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Java\jdk1.8.0_151\bin;C:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Users\Shrawan Rauniyar\AppData\Local\Microsoft\WindowsApps;C:\Java\jdk1.8.0_151\bin;C:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Shrawan Rauniyar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Shrawan Rauniyar"/>
+    <property name="java.class.path" value="C:/apache-maven-3.3.9-bin/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=FF"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runCukes" classname="MyRunner.TestRunner" time="1.213">
+    <failure message="cucumber.runtime.CucumberException: Failed to instantiate class stepDefinitions.SignUpTest" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Failed to instantiate class stepDefinitions.SignUpTest
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:116)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:217)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at testBase.TestBase.initialization(TestBase.java:63)
+	at stepDefinitions.SignUpTest.<init>(SignUpTest.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at MyRunner.TestRunner.runCukes(TestRunner.java:35)
+]]></failure>
+    <system-out><![CDATA[Inside Set up method
+Feature: To verify Sign Up feature
+
+  Scenario: To verify successful sign up                 # SignUp.feature:3
+    Given user is present in automationpractice website  # SignUpTest.user_is_present_in_automationpractice_website()
+      cucumber.runtime.CucumberException: Failed to instantiate class stepDefinitions.SignUpTest
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at MyRunner.TestRunner.runCukes(TestRunner.java:35)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+      	at org.testng.TestRunner.run(TestRunner.java:624)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+      	at org.testng.TestNG.run(TestNG.java:1024)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+      Caused by: java.lang.reflect.InvocationTargetException
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
+      	... 43 more
+      Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'DESKTOP-K9519T8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+      Driver info: driver.version: FirefoxDriver
+      	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:116)
+      	at java.util.Optional.orElseGet(Optional.java:267)
+      	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:217)
+      	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:155)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+      	at testBase.TestBase.initialization(TestBase.java:63)
+      	at stepDefinitions.SignUpTest.<init>(SignUpTest.java:27)
+      	... 48 more
+
+    When user clicks on Sign Up                          # SignUpTest.user_clicks_on_Sign_Up()
+    Then user should get redirected to Registartion Page # SignUpTest.user_should_get_redirected_to_Registartion_Page()
+
+Failed scenarios:
+SignUp.feature:3 # Scenario: To verify successful sign up
+
+1 Scenarios (1 failed)
+3 Steps (1 failed, 2 skipped)
+0m0.941s
+
+cucumber.runtime.CucumberException: Failed to instantiate class stepDefinitions.SignUpTest
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at MyRunner.TestRunner.runCukes(TestRunner.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
+	... 43 more
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-K9519T8', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:116)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:217)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at testBase.TestBase.initialization(TestBase.java:63)
+	at stepDefinitions.SignUpTest.<init>(SignUpTest.java:27)
+	... 48 more
+
+]]></system-out>
+  </testcase>
+  <testcase name="tearDownClass" classname="MyRunner.TestRunner" time="1.213">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at MyRunner.TestRunner.tearDownClass(TestRunner.java:52)
+</failure>
+    <system-out>Inside teardown method
+</system-out>
+  </testcase>
+</testsuite>
